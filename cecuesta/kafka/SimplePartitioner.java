@@ -8,7 +8,7 @@ public class SimplePartitioner implements Partitioner {
     int iKey = (Integer) clave;
     if (iKey > 0) {
       partition = iKey % nPartitions;
-    }
+      }
     return partition;
   }
 }
